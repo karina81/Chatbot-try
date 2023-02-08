@@ -1,0 +1,16 @@
+ Scanner input = new Scanner(System.in);
+        String choice = input.next();
+
+        if (choice.equals("hi")) {
+            System.out.println("hello");
+        }
+
+        System.out.println(choice);
+        if (choice.equals("are you learning programming?")){
+            System.out.println("trying");
+        }
+        choice = input.next();
+         if (choice.equals("good luck")) {
+         System.out.println("thanks");
+    }
+    }}
